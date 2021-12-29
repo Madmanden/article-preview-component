@@ -79,5 +79,27 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-top: 32px;
+  width: 263px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card__author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  width: 172px;
+}
+
+.card__portrait {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.card__info {
+  margin-left: 16px;
 }
 /*# sourceMappingURL=style.css.map */
