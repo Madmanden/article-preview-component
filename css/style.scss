@@ -2,12 +2,11 @@
 // BEM article: https://scalablecss.com/bem-blocks-within-blocks/
 // BEM article: https://scalablecss.com/bem-nesting-grandchild-elements/
 
-
 $dark-grayish-blue: hsl(217, 19%, 35%);
 $desaturated-dark-blue: hsl(214, 17%, 51%);
 $grayish-blue: hsl(212, 23%, 69%);
-$light-grayish-blue: hsl(210, 46%, 95%);
-$color-picked: #ECF2F8;
+$light-grayish-blue: hsl(210, 46%, 95%); // color-picked: #ECF2F8;
+
 
 * {
   margin: 0;
@@ -18,51 +17,83 @@ $color-picked: #ECF2F8;
 body {
   font: {
     size: 13px;
-    //family: 
+    family: "Manrope", sans-serif;
+    weight: 500;
   }
 
   background-color: $light-grayish-blue;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .card {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  height: 512px;
+  width: 327px;
+  box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
+
 
   &__image {
-    //
+    height: 200px;
+    width: 327px;
+    background-image: url("../images/drawers.jpg");
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
 
   &__content {
+    height: 312px;
+    padding-top: 32px; // Is that enough?
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px; // ??
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    border-radius: 10px;
+    color: $dark-grayish-blue;
+  }
+
+  &__header {
+    font: {
+      size: 16px;
+      weight: 700;
+    }
+
+    height: 72px;
+    line-height: 24px;
+    letter-spacing: 0.20px;
+  }
+
+  &__body {
+    margin-top: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.12px;
+  }
+
+  &__footer {
+    display: flex;
+    margin-top: 32px;
+  }
+
+  &__author {
     //
+  }
 
-    &__header {
-      //
-    }
+  &__name {
+    //
+  }
 
-    &__body {
-      //
-    }
+  &__date {
+    //
+  }
 
-    &__footer {
-
-      //
-      &__author {
-        //
-      }
-
-      &__name {
-        //
-      }
-
-      &__date {
-        //
-      }
-
-      &__share {
-        //
-      }
-    }
+  &__social {
+    //
   }
 }

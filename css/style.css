@@ -7,13 +7,9 @@
 
 body {
   font-size: 13px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
   background-color: #ecf2f8;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,5 +19,64 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 512px;
+  width: 327px;
+  -webkit-box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
+          box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
+}
+
+.card__image {
+  height: 200px;
+  width: 327px;
+  background-image: url("../images/drawers.jpg");
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card__content {
+  height: 312px;
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 32px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+  border-radius: 10px;
+  color: #48556a;
+}
+
+.card__header {
+  font-size: 16px;
+  font-weight: 700;
+  height: 72px;
+  line-height: 24px;
+  letter-spacing: 0.20px;
+}
+
+.card__body {
+  margin-top: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.12px;
+}
+
+.card__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 32px;
 }
 /*# sourceMappingURL=style.css.map */
