@@ -1,0 +1,68 @@
+// BEM article: https://scalablecss.com/bem-quickstart-guide/
+// BEM article: https://scalablecss.com/bem-blocks-within-blocks/
+// BEM article: https://scalablecss.com/bem-nesting-grandchild-elements/
+
+
+$dark-grayish-blue: hsl(217, 19%, 35%);
+$desaturated-dark-blue: hsl(214, 17%, 51%);
+$grayish-blue: hsl(212, 23%, 69%);
+$light-grayish-blue: hsl(210, 46%, 95%);
+$color-picked: #ECF2F8;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: {
+    size: 13px;
+    //family: 
+  }
+
+  background-color: $light-grayish-blue;
+  display: flex;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__image {
+    //
+  }
+
+  &__content {
+    //
+
+    &__header {
+      //
+    }
+
+    &__body {
+      //
+    }
+
+    &__footer {
+
+      //
+      &__author {
+        //
+      }
+
+      &__name {
+        //
+      }
+
+      &__date {
+        //
+      }
+
+      &__share {
+        //
+      }
+    }
+  }
+}
