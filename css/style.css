@@ -90,7 +90,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   height: 40px;
-  width: 172px;
+  width: 180px;
 }
 
 .card__portrait {
@@ -101,5 +101,16 @@ body {
 
 .card__info {
   margin-left: 16px;
+}
+
+.card__name {
+  font-weight: 700;
+  letter-spacing: 0.12px;
+  line-height: 20px;
+}
+
+.card__date {
+  color: #9eafc2;
+  letter-spacing: 0.12px;
 }
 /*# sourceMappingURL=style.css.map */

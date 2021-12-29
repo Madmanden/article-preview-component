@@ -87,7 +87,7 @@ body {
   &__author {
     display: flex;
     height: 40px;
-    width: 172px;
+    width: 180px; // 172px in Figma
   }
 
   &__portrait {
@@ -101,11 +101,14 @@ body {
   }
 
   &__name {
-    //
+    font-weight: 700;
+    letter-spacing: 0.12px;
+    line-height: 20px;
   }
 
   &__date {
-    //
+    color: $grayish-blue;
+    letter-spacing: 0.12px;
   }
 
   &__social {
