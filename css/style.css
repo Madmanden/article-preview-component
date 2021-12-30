@@ -65,6 +65,7 @@ body {
   height: 72px;
   line-height: 24px;
   letter-spacing: 0.20px;
+  color: #48556a;
 }
 
 .card__body {
@@ -72,6 +73,7 @@ body {
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0.12px;
+  color: #6d7f97;
 }
 
 .card__footer {
@@ -112,5 +114,47 @@ body {
 .card__date {
   color: #9eafc2;
   letter-spacing: 0.12px;
+}
+
+@media screen and (min-width: 760px) {
+  .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 280px;
+    width: 730px;
+    border-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .card__image {
+    height: 280px;
+    width: 285px;
+    background-image: url("../images/drawers.jpg");
+    background-size: cover;
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .card__content {
+    height: 280px;
+    width: 445px;
+    border-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .card__header {
+    height: 84px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    font-size: 20px;
+  }
+  .card__footer {
+    width: 365px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

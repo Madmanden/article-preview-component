@@ -68,6 +68,7 @@ body {
     height: 72px;
     line-height: 24px;
     letter-spacing: 0.20px;
+    color: $dark-grayish-blue;
   }
 
   &__body {
@@ -75,6 +76,7 @@ body {
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0.12px;
+    color: $desaturated-dark-blue;
   }
 
   &__footer {
@@ -113,5 +115,50 @@ body {
 
   &__social {
     //
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    height: 280px;
+    width: 730px;
+    border-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    &__image {
+      height: 280px;
+      width: 285px;
+      background-image: url("../images/drawers.jpg");
+      background-size: cover;
+      border-radius: 0;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+    &__content {
+      height: 280px;
+      width: 445px;
+      border-radius: 0;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    &__header {
+      height: 84px;
+      line-height: 28px;
+      letter-spacing: 0.25px;
+      font-size: 20px;
+    }
+
+    &__footer {
+      width: 365px;
+    }
+
+    &__author {
+      //width: 365px;
+    }
   }
 }
