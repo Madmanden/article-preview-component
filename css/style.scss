@@ -95,7 +95,6 @@ body {
     display: flex;
     height: 40px; // DESKTOP?
     width: 180px;
-
   }
 
   &__portrait {
@@ -141,14 +140,20 @@ body {
   &__social {
     display: flex;
     position: absolute;
-    top: 587px;
-    left: 105px;
+    transform: translateX(-32px);
+    //transform: translateY(8px); 
+    //top: 587px;
+    //left: 105px;
     //height: 64px;
+    height: 79px;
+    height: 72px;
+    margin-top: 5px;
     width: 327px;
     background-color: $dark-grayish-blue;
+    //opacity: .1;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 12px 32px;
+    padding: 0 32px;
   }
 
   &__social__icons {

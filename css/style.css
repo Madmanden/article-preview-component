@@ -149,13 +149,16 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  top: 587px;
-  left: 105px;
+  -webkit-transform: translateX(-32px);
+          transform: translateX(-32px);
+  height: 79px;
+  height: 72px;
+  margin-top: 5px;
   width: 327px;
   background-color: #48556a;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  padding: 12px 32px;
+  padding: 0 32px;
 }
 
 .card__social__icons {
