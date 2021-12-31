@@ -118,6 +118,7 @@ body {
 .card__date {
   color: #9eafc2;
   letter-spacing: 0.12px;
+  line-height: 20px;
 }
 
 .card__share {
@@ -144,15 +145,38 @@ body {
 }
 
 .card__social {
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: absolute;
   top: 587px;
-  left: 165px;
-  height: 64px;
+  left: 105px;
   width: 327px;
   background-color: #48556a;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  padding: 12px 32px;
+}
+
+.card__social__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto 0;
+  height: 40px;
+  width: 180px;
+  border: 2px solid red;
+}
+
+.card__share__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto 0;
+  margin-left: auto;
+  height: 32px;
+  width: 32px;
+  border: 2px solid green;
 }
 
 @media screen and (min-width: 760px) {
