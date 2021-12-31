@@ -49,10 +49,7 @@ body {
 
   &__content {
     height: 312px;
-    padding-top: 32px; // Is that enough?
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 32px; // ??
+    padding: 32px 40px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: white;
@@ -81,7 +78,9 @@ body {
 
   &__footer {
     display: flex;
-    margin-top: 32px;
+    align-items: center;
+    margin-top: 20px;
+    height: 40px;
     width: 263px;
     justify-content: space-between;
   }
@@ -90,6 +89,7 @@ body {
     display: flex;
     height: 40px;
     width: 180px; // 172px in Figma
+
   }
 
   &__portrait {
@@ -113,10 +113,24 @@ body {
     letter-spacing: 0.12px;
   }
 
-  &__social {
-    //
+  &__share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+    background-color: $light-grayish-blue;
+    border-radius: 50%;
   }
 }
+
+
+
+
+////////////////////////////////////////
+/// MEDIA QUERIES
+////////////////////////////////////////
+
 
 @media screen and (min-width: 760px) {
   .card {
