@@ -139,11 +139,20 @@ body {
 
 .card__share:hover {
   cursor: pointer;
+  background: url("../images/icon-share-white.svg") no-repeat center;
   background-color: #48556a;
 }
 
 .card__social {
+  display: none;
   position: absolute;
+  top: 587px;
+  left: 165px;
+  height: 64px;
+  width: 327px;
+  background-color: #48556a;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 @media screen and (min-width: 760px) {

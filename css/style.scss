@@ -132,13 +132,20 @@ body {
 
   &__share:hover {
     cursor: pointer;
+    background: url("../images/icon-share-white.svg") no-repeat center;
     background-color: $dark-grayish-blue;
-    //mask-image: url("../images/icon-share.svg") no-repeat center;
   }
 
   &__social {
-    position: absolute;
-
+    display: none;
+    position: absolute; //??
+    top: 587px;
+    left: 165px;
+    height: 64px;
+    width: 327px;
+    background-color: $dark-grayish-blue;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
 }
 
