@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-component-with-sass-and-flexbox-0j6di7Gy0](https://www.frontendmentor.io/solutions/order-summary-component-with-sass-and-flexbox-0j6di7Gy0)
+- Solution URL: [https://www.frontendmentor.io/solutions/article-preview-component-built-with-flexbox-sass-and-bem-uEdSq0U9g](https://www.frontendmentor.io/solutions/article-preview-component-built-with-flexbox-sass-and-bem-uEdSq0U9g)
 - Live Site URL: [https://madmanden.github.io/article-preview-component/](https://madmanden.github.io/article-preview-component/)
 
 ## My process
